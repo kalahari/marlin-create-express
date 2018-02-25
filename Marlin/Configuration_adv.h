@@ -940,7 +940,8 @@
    * Stepper driver settings
    */
 
-  #define R_SENSE           0.11  // R_sense resistor for SilentStepStick2130
+  // BAM: defined in pins_EINSYRAMBO.h
+  // #define R_SENSE           0.11  // R_sense resistor for SilentStepStick2130
   #define HOLD_MULTIPLIER    0.5  // Scales down the holding current from run current
   #define INTERPOLATE          1  // Interpolate X/Y/Z_MICROSTEPS to 256
 
@@ -950,7 +951,7 @@
   #define Y_CURRENT         900 
   #define Y_MICROSTEPS        16
 
-  #define Z_CURRENT         1300
+  #define Z_CURRENT         960
   #define Z_MICROSTEPS        16
 
   //#define X2_CURRENT      1000
